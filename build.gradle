@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.givval'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+sourceCompatibility = '11'
 
 configurations {
     compileOnly {
@@ -25,6 +25,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springdoc:springdoc-openapi-ui:1.6.13'
     implementation 'org.springdoc:springdoc-openapi-data-rest:1.6.13'
+    implementation 'com.googlecode.jmapper-framework:jmapper-core:1.6.1.CR2'
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.h2database:h2'
     annotationProcessor 'org.projectlombok:lombok'
